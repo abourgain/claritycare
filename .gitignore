@@ -1,0 +1,14 @@
+venv/
+env/
+claritycare-env/
+.DS_Store
+.vscode
+.vite
+
+# Backend
+__pycache__
+*.pyc
+
+# Database and env variables
+*.env
+backups/
