@@ -91,6 +91,10 @@ class AnthemScraper:
         )
         for item in items:
             link = item.get_attribute("href")
+            if link.split("/")[-1][:2] != "mp":
+                raise ValueError(
+                    "Problem with Medical Policy filter! Expected 'mp_...'"
+                )
             if link.startswith("/"):
                 link = self.base_url + link
             item_links.append(link)
@@ -133,11 +137,14 @@ class AnthemScraper:
 
         visited_links = set()
         while True:
-            item_links = self.get_item_links()
-            visited_links.update(item_links)
-            self.visit_item_pages(item_links)
             try:
+                item_links = self.get_item_links()
+                visited_links.update(item_links)
+                self.visit_item_pages(item_links)
                 self.navigate_next_page()
+            except ValueError as e:
+                print(e)
+                break
             except TimeoutException:
                 print("No more pages or next page button not found.")
                 break
