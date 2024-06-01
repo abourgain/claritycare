@@ -10,10 +10,12 @@ pdfminer.six==20231228
 pdfplumber==0.11.0
 pillow==10.3.0
 pycparser==2.22
+pylint==3.2.2
 pypdfium2==4.30.0
 python-dateutil==2.9.0.post0
 pytz==2024.1
 requests==2.32.3
+selenium==4.21.0
 six==1.16.0
 soupsieve==2.5
 tzdata==2024.1
