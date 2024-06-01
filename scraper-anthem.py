@@ -283,15 +283,20 @@ def main():
         type=str,
         default="surgery",
         help="Category to filter the guidelines.",
-        choices=ALLOWED_CATEGORIES,
+        choices=["all"] + ALLOWED_CATEGORIES,
     )
     parser.add_argument(
         "--headful", action="store_true", help="Run browser in headful mode."
     )
     args = parser.parse_args()
 
-    scraper = AnthemScraper(headful=args.headful, category=args.cat)
-    scraper.scrape()
+    if args.cat == "all":
+        for cat in ALLOWED_CATEGORIES:
+            scraper = AnthemScraper(headful=args.headful, category=cat)
+            scraper.scrape()
+    else:
+        scraper = AnthemScraper(headful=args.headful, category=args.cat)
+        scraper.scrape()
 
 
 if __name__ == "__main__":
