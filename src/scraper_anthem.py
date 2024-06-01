@@ -201,8 +201,8 @@ class AnthemScraper:
         except TimeoutException:
             print("Position Statement not found or page format different.")
             return ""
-        except ValueError as e:
-            print(f"An error occurred: {e}")
+        except ValueError as exception:
+            print(f"An error occurred: {exception}")
             return ""
 
     def visit_item_pages(self, item_links):
@@ -256,8 +256,8 @@ class AnthemScraper:
                 visited_links.update(item_links)
                 policies.extend(self.visit_item_pages(item_links))
                 self.navigate_next_page()
-            except ValueError as e:
-                print(e)
+            except ValueError as exception:
+                print(exception)
                 break
             except TimeoutException:
                 print("No more pages or next page button not found.")
@@ -265,8 +265,8 @@ class AnthemScraper:
         assert len(visited_links) == num_results, "Some items were not visited."
 
         # Save the policies to a JSON file
-        df = pd.DataFrame(policies)
-        df.to_json(
+        policies_df = pd.DataFrame(policies)
+        policies_df.to_json(
             f"./ddata/anthem/{self.category}_policies.json",
             orient="records",
             lines=True,
