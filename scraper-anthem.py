@@ -13,15 +13,27 @@ from selenium.common.exceptions import TimeoutException
 
 BASE_URL = "https://www.anthem.com"
 URL = "https://www.anthem.com/ca/provider/policies/clinical-guidelines/updates/"
+ALLOWED_CATEGORIES = [
+    "ancillarymiscellaneous",
+    "medicine",
+    "durablemedicalequipment",
+    "surgery",
+    "laboratory",
+    "transplant",
+    "therapeuticradiology",
+    "radiology",
+    "orthoticsprosthetics",
+]
 
 
 class AnthemScraper:
     """A class to scrape Anthem site for clinical guidelines."""
 
-    def __init__(self, headful: bool = False):
+    def __init__(self, headful: bool = False, category: str = "surgery"):
         self.url = URL
         self.base_url = BASE_URL
         self.headless = not headful
+        self.category = category
         self.driver = self.setup_driver(headful)
 
     def get_random_wait_time(self):
@@ -102,6 +114,7 @@ class AnthemScraper:
         return item_links
 
     def extract_details(self):
+        """Extract the details of the document."""
         try:
             # Wait for the 'docDetails' table to load
             doc_details_table = WebDriverWait(
@@ -214,7 +227,6 @@ class AnthemScraper:
             print(f"Visited: {link}")
             self.driver.close()  # Close the current tab
             self.driver.switch_to.window(main_window)  # Switch back to the main window
-            break  # Remove this line to visit all pages
         return policies
 
     def navigate_next_page(self):
@@ -233,7 +245,7 @@ class AnthemScraper:
         time.sleep(self.get_random_wait_time())  # Allow page to load
         self.close_popup()
         self.select_filter("formsDocTypeFilter", "medicalpolicy")
-        self.select_filter("categoryFilter", "surgery")
+        self.select_filter("categoryFilter", self.category)
         num_results = self.get_num_results()
 
         visited_links = set()
@@ -254,7 +266,11 @@ class AnthemScraper:
 
         # Save the policies to a JSON file
         df = pd.DataFrame(policies)
-        df.to_json("anthem_policies.json", orient="records", lines=True)
+        df.to_json(
+            f"./ddata/anthem/{self.category}_policies.json",
+            orient="records",
+            lines=True,
+        )
 
 
 def main():
@@ -263,11 +279,18 @@ def main():
         description="Scrape Anthem site for clinical guidelines."
     )
     parser.add_argument(
+        "--cat",
+        type=str,
+        default="surgery",
+        help="Category to filter the guidelines.",
+        choices=ALLOWED_CATEGORIES,
+    )
+    parser.add_argument(
         "--headful", action="store_true", help="Run browser in headful mode."
     )
     args = parser.parse_args()
 
-    scraper = AnthemScraper(headful=args.headful)
+    scraper = AnthemScraper(headful=args.headful, category=args.cat)
     scraper.scrape()
 
 

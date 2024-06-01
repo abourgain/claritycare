@@ -1,6 +1,8 @@
 venv/
 env/
 claritycare-env/
+ddata/
+draft/
 .DS_Store
 .vscode
 .vite
