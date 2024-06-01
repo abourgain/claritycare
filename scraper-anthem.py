@@ -4,6 +4,7 @@ import argparse
 import time
 import random
 
+import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -100,9 +101,101 @@ class AnthemScraper:
             item_links.append(link)
         return item_links
 
+    def extract_details(self):
+        try:
+            # Wait for the 'docDetails' table to load
+            doc_details_table = WebDriverWait(
+                self.driver, self.get_random_wait_time()
+            ).until(EC.visibility_of_element_located((By.ID, "docDetails")))
+
+            # Extracting details
+            subject = (
+                doc_details_table.find_element(By.XPATH, ".//tr[1]/td")
+                .text.replace("Subject: ", "")
+                .strip()
+            )
+            document_number = (
+                doc_details_table.find_element(By.XPATH, ".//tr[2]/td[1]")
+                .text.replace("Document #: ", "")
+                .strip()
+            )
+            publish_date = (
+                doc_details_table.find_element(By.XPATH, ".//tr[2]/td[2]")
+                .text.replace("Publish Date: ", "")
+                .strip()
+            )
+            status = (
+                doc_details_table.find_element(By.XPATH, ".//tr[3]/td[1]")
+                .text.replace("Status: ", "")
+                .strip()
+            )
+            last_review_date = (
+                doc_details_table.find_element(By.XPATH, ".//tr[3]/td[2]")
+                .text.replace("Last Review Date: ", "")
+                .strip()
+            )
+
+            return {
+                "subject": subject,
+                "document_number": document_number,
+                "publish_date": publish_date,
+                "status": status,
+                "last_review_date": last_review_date,
+            }
+        except TimeoutException:
+            print("Failed to find the document details table.")
+            return {}
+
+    def extract_position_statement(self):
+        """Extract the content under the 'Position Statement' heading."""
+        try:
+            # Locate the 'Position Statement' heading to ensure we are extracting the right paragraph
+            position_heading = WebDriverWait(
+                self.driver, self.get_random_wait_time()
+            ).until(
+                EC.visibility_of_element_located(
+                    (By.XPATH, "//strong[contains(text(), 'Position Statement')]")
+                )
+            )
+            # Collect all subsequent siblings until the next <table> is encountered
+            content_elements = self.driver.execute_script(
+                """
+                var heading = arguments[0];
+                var collect = false;
+                var content = [];
+                var elements = document.body.getElementsByTagName('*');
+                for (var elem of elements) {
+                    if (elem === heading) {
+                        collect = true;
+                        continue;
+                    }
+                    if (collect) {
+                        if (elem.tagName === 'TABLE') break;
+                        if (['P', 'UL', 'LI'].includes(elem.tagName)) {
+                            content.push(elem.outerHTML);
+                        }
+                    }
+                }
+                return content;
+                """,
+                position_heading,
+            )
+
+            if not content_elements:
+                raise ValueError("No content was extracted.")
+
+            return "\n".join(content_elements)
+        except TimeoutException:
+            print("Position Statement not found or page format different.")
+            return ""
+        except ValueError as e:
+            print(f"An error occurred: {e}")
+            return ""
+
     def visit_item_pages(self, item_links):
         """Visit each item page and process it as needed."""
         main_window = self.driver.current_window_handle  # Store the main window handle
+        policies = []
         for link in item_links:
             self.driver.execute_script("window.open('');")  # Open a new tab
             self.driver.switch_to.window(
@@ -110,11 +203,19 @@ class AnthemScraper:
             )  # Switch to the new tab
             self.driver.get(link)
             time.sleep(self.get_random_wait_time())  # Allow page to load
-            # Process the item page as needed
-            print(f"Visited: {link}")
 
+            # Extract the document details and the 'Position Statement' content
+            policy = self.extract_details()
+            content = self.extract_position_statement()
+            policy["content"] = content
+
+            policies.append(policy)
+
+            print(f"Visited: {link}")
             self.driver.close()  # Close the current tab
             self.driver.switch_to.window(main_window)  # Switch back to the main window
+            break  # Remove this line to visit all pages
+        return policies
 
     def navigate_next_page(self):
         """Navigate to the next page."""
@@ -136,11 +237,12 @@ class AnthemScraper:
         num_results = self.get_num_results()
 
         visited_links = set()
+        policies = []
         while True:
             try:
                 item_links = self.get_item_links()
                 visited_links.update(item_links)
-                self.visit_item_pages(item_links)
+                policies.extend(self.visit_item_pages(item_links))
                 self.navigate_next_page()
             except ValueError as e:
                 print(e)
@@ -149,7 +251,10 @@ class AnthemScraper:
                 print("No more pages or next page button not found.")
                 break
         assert len(visited_links) == num_results, "Some items were not visited."
-        self.driver.quit()
+
+        # Save the policies to a JSON file
+        df = pd.DataFrame(policies)
+        df.to_json("anthem_policies.json", orient="records", lines=True)
 
 
 def main():
