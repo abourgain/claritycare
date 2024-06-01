@@ -1,4 +1,4 @@
-# Description: Makefile for the project
+# ---------------- Install the project ---------------- #
 install:
 	@echo "Installing the projec"
 	@echo "Creating virtual environment"
@@ -13,5 +13,13 @@ install:
 	@claritycare-env/bin/pip install --no-deps -r requirements.txt
 	@echo "-> OK"
 	@echo "Project installed!"
+
+### ---------------   Lint  --------------- ###
+
+pylint:
+	claritycare-env/bin/python -m pylint --rcfile=pylint.conf src
+
+lint:
+	make pylint
 
 
