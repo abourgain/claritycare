@@ -242,6 +242,7 @@ class AnthemScraper:
 
     @staticmethod
     def clean_html(html):
+        """Clean the HTML content."""
         soup = BeautifulSoup(html, "html.parser")
 
         # Remove specific tags but keep their content
