@@ -1,10 +1,11 @@
 """Scraper script for the Anthem website using Selenium."""
 
 import argparse
+import json
 import time
 import random
 
-import pandas as pd
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -220,7 +221,7 @@ class AnthemScraper:
             # Extract the document details and the 'Position Statement' content
             policy = self.extract_details()
             content = self.extract_position_statement()
-            policy["content"] = content
+            policy["html_content"] = content
 
             policies.append(policy)
 
@@ -238,6 +239,16 @@ class AnthemScraper:
         )
         next_page_link.click()
         time.sleep(self.get_random_wait_time())  # Allow page to load
+
+    @staticmethod
+    def clean_html(html):
+        soup = BeautifulSoup(html, "html.parser")
+
+        # Remove specific tags but keep their content
+        for tag in soup.find_all(["strong", "em", "div", "p"]):
+            tag.unwrap()
+
+        return str(soup)
 
     def scrape(self):
         """Scrape the Anthem site for clinical guidelines."""
@@ -264,13 +275,15 @@ class AnthemScraper:
                 break
         assert len(visited_links) == num_results, "Some items were not visited."
 
-        # Save the policies to a JSON file
-        policies_df = pd.DataFrame(policies)
-        policies_df.to_json(
-            f"./ddata/anthem/{self.category}_policies.json",
-            orient="records",
-            lines=True,
-        )
+        # Clean the HTML content
+        for policy in policies:
+            policy["content"] = self.clean_html(policy["html_content"])
+
+        # Save the policies to a JSON file without pandas
+        with open(
+            f"./ddata/anthem/{self.category}_policies.json", "w", encoding="utf-8"
+        ) as file:
+            json.dump(policies, file, indent=2)
 
 
 def main():
