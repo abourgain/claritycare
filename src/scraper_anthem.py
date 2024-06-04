@@ -219,7 +219,8 @@ class AnthemScraper:
             time.sleep(self.get_random_wait_time())  # Allow page to load
 
             # Extract the document details and the 'Position Statement' content
-            policy = self.extract_details()
+            policy = {"url": link}
+            policy = {**policy, **self.extract_details()}
             content = self.extract_position_statement()
             policy["html_content"] = content
 
