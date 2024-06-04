@@ -35,6 +35,7 @@ class MedicalPolicyExtractor:
         """Initialize the MedicalPolicyExtractor class."""
         print(f"Initializing the data extractor with the model: {model_name}")
         load_dotenv()
+        self.model_name = model_name
         self.llm = initialize_model(model_name)
         self.instructions = INSTRUCTIONS
         self.prompt = ChatPromptTemplate.from_messages(
@@ -82,7 +83,12 @@ class MedicalPolicyExtractor:
             if verbose:
                 print(f"-> Extracting policy for {policy['subject']}")
             position_statement = policy["content"]
-            policy["criteria"] = self.extract_policy(position_statement)
+
+            criteria_entry = {
+                "model": self.model_name,
+                "criteria": self.extract_policy(position_statement),
+            }
+            policy.setdefault("criteria", []).append(criteria_entry)
 
         # Save the policies to a JSON file
         with open(file_path, "w", encoding="utf-8") as file:
