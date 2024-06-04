@@ -8,24 +8,34 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
+import openai
 
 from src.instructions import INSTRUCTIONS
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+def initialize_model(model_name: str):
+    """Function to initialize the model."""
+    if model_name in ["gpt-4o", "gpt-4", "gpt-3.5-turbo", "gpt-3.5"]:
+        openai_api_key = os.getenv("OPENAI_API_KEY")
+        llm = ChatOpenAI(
+            model=model_name,
+            temperature=0,
+            max_tokens=None,
+            openai_api_key=openai_api_key,
+        )
+    else:
+        raise ValueError(f"Invalid model name: {model_name}")
+    return llm
 
 
 class MedicalPolicyExtractor:
     """Class to extract the different criteria logic schemas for medical policies."""
 
-    def __init__(self):
+    def __init__(self, model_name: str = "gpt-4o"):
+        """Initialize the MedicalPolicyExtractor class."""
+        print(f"Initializing the data extractor with the model: {model_name}")
         load_dotenv()
-        self.openai_api_key = OPENAI_API_KEY
-        self.llm = ChatOpenAI(
-            model="gpt-4o",
-            temperature=0,
-            max_tokens=None,
-            openai_api_key=self.openai_api_key,
-        )
+        self.llm = initialize_model(model_name)
         self.instructions = INSTRUCTIONS
         self.prompt = ChatPromptTemplate.from_messages(
             [
@@ -41,12 +51,22 @@ class MedicalPolicyExtractor:
 
     def extract_policy(self, position_statement):
         """Function to extract the policy from a position statement."""
-        return self.chain.invoke(
-            {
-                "instructions": self.instructions,
-                "position_statement": position_statement,
-            }
-        )
+        try:
+            return self.chain.invoke(
+                {
+                    "instructions": self.instructions,
+                    "position_statement": position_statement,
+                }
+            )
+        except openai.AuthenticationError as exc:
+            print(f"OpenAI authentication error: {exc}")
+            return None
+        except openai.APIError as exc:
+            print(f"OpenAI API error: {exc}")
+            return None
+        except ValueError as exc:
+            print(f"Value error: {exc}")
+            return None
 
     def extract_policy_from_file(self, file_path: str, verbose: bool = False):
         """Function to extract the policy from a JSON file."""
@@ -90,6 +110,13 @@ def main():
     )
 
     parser.add_argument(
+        "--model",
+        type=str,
+        default="gpt-4o",
+        help="The model to use for the extraction.",
+    )
+
+    parser.add_argument(
         "--string",
         type=str,
         help="The position statement for a medical policy.",
@@ -110,7 +137,7 @@ def main():
 
     args = parser.parse_args()
 
-    extractor = MedicalPolicyExtractor()
+    extractor = MedicalPolicyExtractor(model_name=args.model)
 
     if args.data:
         if os.path.isfile(args.data):
