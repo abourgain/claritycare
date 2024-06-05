@@ -7,6 +7,7 @@ import random
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
+import selenium
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -30,11 +31,14 @@ ALLOWED_CATEGORIES = [
 class AnthemScraper:
     """A class to scrape Anthem site for clinical guidelines."""
 
-    def __init__(self, headful: bool = False, category: str = "surgery"):
+    def __init__(
+        self, headful: bool = False, category: str = "surgery", verbose: bool = False
+    ):
         self.url = URL
         self.base_url = BASE_URL
         self.headless = not headful
         self.category = category
+        self.verbose = verbose
         self.driver = self.setup_driver(headful)
 
     def get_random_wait_time(self):
@@ -226,20 +230,31 @@ class AnthemScraper:
 
             policies.append(policy)
 
-            print(f"Visited: {link}")
+            print(f"-> Visited: {link}")
             self.driver.close()  # Close the current tab
             self.driver.switch_to.window(main_window)  # Switch back to the main window
         return policies
 
     def navigate_next_page(self):
         """Navigate to the next page."""
-        next_page_link = WebDriverWait(self.driver, self.get_random_wait_time()).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//a[contains(@aria-label, 'Go to Next Page')]")
-            )
-        )
-        next_page_link.click()
-        time.sleep(self.get_random_wait_time())  # Allow page to load
+        clicked = False
+        trial = 0
+        while not clicked:
+            try:
+                next_page_link = WebDriverWait(
+                    self.driver, self.get_random_wait_time()
+                ).until(
+                    EC.element_to_be_clickable(
+                        (By.XPATH, "//a[contains(@aria-label, 'Go to Next Page')]")
+                    )
+                )
+                next_page_link.click()
+                clicked = True
+            except selenium.common.exceptions.ElementClickInterceptedException:
+                trial += 1
+                if self.verbose:
+                    print(f"! Failed to click next page link. Trial {trial}.")
+            time.sleep(self.get_random_wait_time())  # Allow page to load
 
     @staticmethod
     def clean_html(html):
@@ -254,6 +269,8 @@ class AnthemScraper:
 
     def scrape(self):
         """Scrape the Anthem site for clinical guidelines."""
+        if self.verbose:
+            print(f"Scraping Anthem site for {self.category} guidelines.")
         self.driver.get(self.url)
         time.sleep(self.get_random_wait_time())  # Allow page to load
         self.close_popup()
@@ -303,14 +320,19 @@ def main():
     parser.add_argument(
         "--headful", action="store_true", help="Run browser in headful mode."
     )
+    parser.add_argument("--verbose", action="store_true", help="Print verbose output.")
     args = parser.parse_args()
 
     if args.cat == "all":
         for cat in ALLOWED_CATEGORIES:
-            scraper = AnthemScraper(headful=args.headful, category=cat)
+            scraper = AnthemScraper(
+                headful=args.headful, category=cat, verbose=args.verbose
+            )
             scraper.scrape()
     else:
-        scraper = AnthemScraper(headful=args.headful, category=args.cat)
+        scraper = AnthemScraper(
+            headful=args.headful, category=args.cat, verbose=args.verbose
+        )
         scraper.scrape()
 
 
