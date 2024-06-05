@@ -3,11 +3,13 @@
 import os
 import argparse
 import json
+import time
 from dotenv import load_dotenv
 
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
+from langchain_community.callbacks import get_openai_callback
 import openai
 
 from src.instructions import INSTRUCTIONS
@@ -53,12 +55,29 @@ class MedicalPolicyExtractor:
     def extract_policy(self, position_statement):
         """Function to extract the policy from a position statement."""
         try:
-            return self.chain.invoke(
-                {
-                    "instructions": self.instructions,
-                    "position_statement": position_statement,
+            start_time = time.time()
+            with get_openai_callback() as cb:
+                response = self.chain.invoke(
+                    {
+                        "instructions": self.instructions,
+                        "position_statement": position_statement,
+                    }
+                )
+                usage = {
+                    "total_tokens": cb.total_tokens,
+                    "prompt_tokens": cb.prompt_tokens,
+                    "completion_tokens": cb.completion_tokens,
+                    "total_cost": cb.total_cost,
                 }
-            )
+            end_time = time.time()
+            processing_time = end_time - start_time
+            usage["processing_time"] = processing_time
+
+            response = {
+                "criteria": response,
+                "usage": usage,
+            }
+            return response
         except openai.AuthenticationError as exc:
             print(f"OpenAI authentication error: {exc}")
             return None
@@ -83,10 +102,11 @@ class MedicalPolicyExtractor:
             if verbose:
                 print(f"-> Extracting policy for {policy['subject']}")
             position_statement = policy["content"]
-
+            response = self.extract_policy(position_statement)
             criteria_entry = {
                 "model": self.model_name,
-                "criteria": self.extract_policy(position_statement),
+                "criteria": response["criteria"],
+                "usage": response["usage"],
             }
             policy.setdefault("criteria", []).append(criteria_entry)
 
