@@ -1,0 +1,399 @@
+[
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a053265.html",
+    "subject": "Use of 3-D, 4-D or 5-D Ultrasound in Maternity Care",
+    "document_number": "RAD.00038",
+    "publish_date": "04/10/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of 3-D, 4-D or 5-D fetal ultrasound is considered <strong>investigational and not medically necessary </strong>in all cases.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of 3-D, 4-D or 5-D fetal ultrasound is considered investigational and not medically necessary in all cases.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "3-D, 4-D or 5-D fetal ultrasound",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of 3-D, 4-D or 5-D fetal ultrasound is considered investigational and not medically necessary in all cases.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 937,
+          "prompt_tokens": 849,
+          "completion_tokens": 88,
+          "total_cost": 0.005565,
+          "processing_time": 2.2381818294525146
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a053267.html",
+    "subject": "Magnetic Resonance Neurography",
+    "document_number": "RAD.00044",
+    "publish_date": "04/10/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p align=\"left\" class=\"MsoBodyText2\" style=\"text-align:left\">Magnetic resonance neurography is considered <strong>investigational and not medically necessary.</strong></p>",
+    "content": "Investigational and Not Medically Necessary:\nMagnetic resonance neurography is considered investigational and not medically necessary.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Magnetic resonance neurography",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Magnetic resonance neurography is considered investigational and not medically necessary.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 905,
+          "prompt_tokens": 836,
+          "completion_tokens": 69,
+          "total_cost": 0.005215,
+          "processing_time": 1.7199459075927734
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001579.html",
+    "subject": "Quantitative Ultrasound for Tissue Characterization",
+    "document_number": "RAD.00067",
+    "publish_date": "04/10/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Quantitative ultrasound for tissue characterization is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nQuantitative ultrasound for tissue characterization is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Quantitative ultrasound for tissue characterization",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Quantitative ultrasound for tissue characterization is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 911,
+          "prompt_tokens": 839,
+          "completion_tokens": 72,
+          "total_cost": 0.005275,
+          "processing_time": 2.5157997608184814
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c135672.html",
+    "subject": "Catheter-based Embolization Procedures for Malignant Lesions Outside the Liver",
+    "document_number": "RAD.00059",
+    "publish_date": "04/01/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Transcatheter arterial chemoembolization and transcatheter arterial embolization are considered<strong> investigational and not medically necessary</strong> for malignant lesions outside the liver.</p>",
+    "content": "Investigational and Not Medically Necessary:\nTranscatheter arterial chemoembolization and transcatheter arterial embolization are considered investigational and not medically necessary for malignant lesions outside the liver.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Transcatheter arterial chemoembolization and transcatheter arterial embolization",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Transcatheter arterial chemoembolization and transcatheter arterial embolization are considered investigational and not medically necessary for malignant lesions outside the liver.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 941,
+          "prompt_tokens": 850,
+          "completion_tokens": 91,
+          "total_cost": 0.005615,
+          "processing_time": 1.7990751266479492
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c187305.html",
+    "subject": "Radiostereometric Analysis (RSA)",
+    "document_number": "RAD.00065",
+    "publish_date": "01/03/2024",
+    "status": "Reviewed",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Radiostereometric analysis (RSA) is considered <strong>investigational and not medically necessary</strong> for all uses including, but not limited to the following:</p>\n<ul>\t<li>Determination of migration and wear of orthopedic implants;</li>\t<li>Assessment of spine and extremity fracture healing</li></ul>\n<li>Determination of migration and wear of orthopedic implants;</li>\n<li>Assessment of spine and extremity fracture healing</li>",
+    "content": "Investigational and Not Medically Necessary:\nRadiostereometric analysis (RSA) is considered investigational and not medically necessary for all uses including, but not limited to the following:\n<ul> <li>Determination of migration and wear of orthopedic implants;</li> <li>Assessment of spine and extremity fracture healing</li></ul>\n<li>Determination of migration and wear of orthopedic implants;</li>\n<li>Assessment of spine and extremity fracture healing</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Radiostereometric analysis (RSA)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Radiostereometric analysis (RSA) is considered investigational and not medically necessary for all uses including, but not limited to the following:",
+            "conditions": {
+              "ALL": [
+                {
+                  "desc": "Determination of migration and wear of orthopedic implants",
+                  "conditions": null
+                },
+                {
+                  "desc": "Assessment of spine and extremity fracture healing",
+                  "conditions": null
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "total_tokens": 1049,
+          "prompt_tokens": 909,
+          "completion_tokens": 140,
+          "total_cost": 0.006645000000000001,
+          "processing_time": 3.2146689891815186
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_b083502.html",
+    "subject": "Cervical and Thoracic Discography",
+    "document_number": "RAD.00053",
+    "publish_date": "01/03/2024",
+    "status": "Reviewed",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Cervical and thoracic discography are each considered <strong>investigational and</strong> <strong>not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nCervical and thoracic discography are each considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Cervical and thoracic discography",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Cervical and thoracic discography are each considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 919,
+          "prompt_tokens": 842,
+          "completion_tokens": 77,
+          "total_cost": 0.005365,
+          "processing_time": 1.571533203125
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e002728.html",
+    "subject": "Myocardial Strain Imaging",
+    "document_number": "RAD.00068",
+    "publish_date": "01/03/2024",
+    "status": "New",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Myocardial strain imaging in considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nMyocardial strain imaging in considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Myocardial strain imaging",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Myocardial strain imaging is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 908,
+          "prompt_tokens": 838,
+          "completion_tokens": 70,
+          "total_cost": 0.00524,
+          "processing_time": 1.7036080360412598
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_b099012.html",
+    "subject": "Near-Infrared Coronary Imaging and Near-Infrared Intravascular Ultrasound Coronary Imaging",
+    "document_number": "RAD.00057",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Near-infrared coronary imaging is considered <strong>investigational and not medically necessary </strong>for all indications.</p>\n<p>Near-infrared intravascular ultrasound coronary imaging is considered <strong>investigational and not medically necessary </strong>for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nNear-infrared coronary imaging is considered investigational and not medically necessary for all indications.\nNear-infrared intravascular ultrasound coronary imaging is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Near-infrared coronary imaging",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Near-infrared coronary imaging is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Near-infrared intravascular ultrasound coronary imaging",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Near-infrared intravascular ultrasound coronary imaging is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1011,
+          "prompt_tokens": 861,
+          "completion_tokens": 150,
+          "total_cost": 0.006555,
+          "processing_time": 3.1666150093078613
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c146155.html",
+    "subject": "PET/MRI",
+    "document_number": "RAD.00061",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of combined PET/MRI imaging technology is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of combined PET/MRI imaging technology is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Combined PET/MRI imaging technology",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of combined PET/MRI imaging technology is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 917,
+          "prompt_tokens": 842,
+          "completion_tokens": 75,
+          "total_cost": 0.005335,
+          "processing_time": 1.9526278972625732
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c166608.html",
+    "subject": "Myocardial Sympathetic Innervation Imaging with or without Single-Photon Emission Computed Tomography (SPECT)",
+    "document_number": "RAD.00064",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Myocardial sympathetic innervation imaging with <sup>123</sup>iodine meta-iodobenzylguanidine (MIBG) is considered <strong>investigational and not medically necessary </strong>for all indications, including the evaluation of heart failure.</p>",
+    "content": "Investigational and Not Medically Necessary:\nMyocardial sympathetic innervation imaging with <sup>123</sup>iodine meta-iodobenzylguanidine (MIBG) is considered investigational and not medically necessary for all indications, including the evaluation of heart failure.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Myocardial sympathetic innervation imaging with 123iodine meta-iodobenzylguanidine (MIBG)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Myocardial sympathetic innervation imaging with 123iodine meta-iodobenzylguanidine (MIBG) is considered investigational and not medically necessary for all indications, including the evaluation of heart failure.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 986,
+          "prompt_tokens": 870,
+          "completion_tokens": 116,
+          "total_cost": 0.00609,
+          "processing_time": 1.8805482387542725
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c152780.html",
+    "subject": "Magnetization-Prepared Rapid Acquisition Gradient Echo Magnetic Resonance Imaging (MPRAGE MRI)",
+    "document_number": "RAD.00063",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of magnetization-prepared rapid acquisition gradient echo magnetic resonance imaging (MPRAGE MRI) is considered <strong>investigational</strong> <strong>and</strong> <strong>not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of magnetization-prepared rapid acquisition gradient echo magnetic resonance imaging (MPRAGE MRI) is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Magnetization-Prepared Rapid Acquisition Gradient Echo Magnetic Resonance Imaging (MPRAGE MRI)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of magnetization-prepared rapid acquisition gradient echo magnetic resonance imaging (MPRAGE MRI) is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 951,
+          "prompt_tokens": 853,
+          "completion_tokens": 98,
+          "total_cost": 0.005735,
+          "processing_time": 2.2472012042999268
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a050550.html",
+    "subject": "Dynamic Spinal Visualization (Including Digital Motion X-ray and Cineradiography/ Videofluoroscopy)",
+    "document_number": "RAD.00034",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Dynamic spinal visualization, including, but not limited to, digital motion x-ray of the spine, with or without digitization of spinal x-rays and computerized analysis of the back or spine, is considered <strong>investigational and n</strong><strong>ot medically necessary</strong> for all indications.</p>\n<p>Dynamic spinal visualization, including, but not limited to, cineradiography, also known as videofluoroscopy, when used to visualize movement of the back or spine, is considered <strong>investigational and n</strong><strong>ot medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nDynamic spinal visualization, including, but not limited to, digital motion x-ray of the spine, with or without digitization of spinal x-rays and computerized analysis of the back or spine, is considered investigational and not medically necessary for all indications.\nDynamic spinal visualization, including, but not limited to, cineradiography, also known as videofluoroscopy, when used to visualize movement of the back or spine, is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Dynamic spinal visualization",
+            "sub_medical_act": "digital motion x-ray of the spine",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Dynamic spinal visualization, including, but not limited to, digital motion x-ray of the spine, with or without digitization of spinal x-rays and computerized analysis of the back or spine, is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Dynamic spinal visualization",
+            "sub_medical_act": "cineradiography (videofluoroscopy)",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Dynamic spinal visualization, including, but not limited to, cineradiography, also known as videofluoroscopy, when used to visualize movement of the back or spine, is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1132,
+          "prompt_tokens": 918,
+          "completion_tokens": 214,
+          "total_cost": 0.0078,
+          "processing_time": 4.019245862960815
+        }
+      }
+    ]
+  }
+]

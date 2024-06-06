@@ -1,7 +1,7 @@
 venv/
 env/
 claritycare-env/
-ddata/
+data/
 draft/
 .DS_Store
 .vscode

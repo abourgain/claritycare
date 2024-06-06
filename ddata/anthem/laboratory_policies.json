@@ -1,0 +1,1092 @@
+[
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_b088866.html",
+    "subject": "Topographic Genotyping",
+    "document_number": "LAB.00025",
+    "publish_date": "04/10/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Topographic genotyping is considered <strong>investigational and not medically necessary </strong>for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nTopographic genotyping is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Topographic genotyping",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Topographic genotyping is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 905,
+          "prompt_tokens": 837,
+          "completion_tokens": 68,
+          "total_cost": 0.005205,
+          "processing_time": 1.3682019710540771
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c193684.html",
+    "subject": "Protein Biomarkers for the Screening, Detection and Management of Prostate Cancer",
+    "document_number": "LAB.00033",
+    "publish_date": "04/10/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of protein biomarker tests for the screening, detection, and management of prostate cancer is considered <strong>investigational and not medically necessary.</strong></p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of protein biomarker tests for the screening, detection, and management of prostate cancer is considered investigational and not medically necessary.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "The use of protein biomarker tests for the screening, detection, and management of prostate cancer",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of protein biomarker tests for the screening, detection, and management of prostate cancer is considered investigational and not medically necessary.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 941,
+          "prompt_tokens": 848,
+          "completion_tokens": 93,
+          "total_cost": 0.005634999999999999,
+          "processing_time": 2.1071419715881348
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e000976.html",
+    "subject": "Combined Pathogen Identification and Drug Resistance Testing",
+    "document_number": "LAB.00039",
+    "publish_date": "04/10/2024",
+    "status": "Revised",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Combined pathogen identification and drug resistance testing is considered <strong>investigational and not medically necessary</strong> in the outpatient setting for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nCombined pathogen identification and drug resistance testing is considered investigational and not medically necessary in the outpatient setting for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Combined pathogen identification and drug resistance testing",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Combined pathogen identification and drug resistance testing is considered investigational and not medically necessary in the outpatient setting for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 922,
+          "prompt_tokens": 844,
+          "completion_tokens": 78,
+          "total_cost": 0.00539,
+          "processing_time": 1.2884180545806885
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001582.html",
+    "subject": "Selected Tests for the Evaluation and Management of Infertility",
+    "document_number": "LAB.00045",
+    "publish_date": "04/10/2024",
+    "status": "Revised",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The following tests or procedures are considered <strong>investigational and</strong> <strong>not medically necessary</strong> for diagnosing or managing infertility:</p>\n<li>Endometrial receptivity analysis;</li>\n<li>Sperm-capacitation test;</li>\n<li>Sperm deoxyribonucleic acid (DNA) fragmentation test;</li>\n<li>Sperm penetration assay; and</li>\n<li>Uterine natural killer (uNK) cells test.</li>",
+    "content": "Investigational and Not Medically Necessary:\nThe following tests or procedures are considered investigational and not medically necessary for diagnosing or managing infertility:\n<li>Endometrial receptivity analysis;</li>\n<li>Sperm-capacitation test;</li>\n<li>Sperm deoxyribonucleic acid (DNA) fragmentation test;</li>\n<li>Sperm penetration assay; and</li>\n<li>Uterine natural killer (uNK) cells test.</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Endometrial receptivity analysis",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The test is considered investigational and not medically necessary for diagnosing or managing infertility.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Sperm-capacitation test",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The test is considered investigational and not medically necessary for diagnosing or managing infertility.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Sperm deoxyribonucleic acid (DNA) fragmentation test",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The test is considered investigational and not medically necessary for diagnosing or managing infertility.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Sperm penetration assay",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The test is considered investigational and not medically necessary for diagnosing or managing infertility.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Uterine natural killer (uNK) cells test",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The test is considered investigational and not medically necessary for diagnosing or managing infertility.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1258,
+          "prompt_tokens": 905,
+          "completion_tokens": 353,
+          "total_cost": 0.009819999999999999,
+          "processing_time": 8.691364288330078
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001581.html",
+    "subject": "Saliva-based Testing to Determine Drug-Metabolizer Status",
+    "document_number": "LAB.00044",
+    "publish_date": "04/10/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Saliva-based testing to determine drug-metabolizer status is considered <strong>investigational and not medically necessary </strong>for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nSaliva-based testing to determine drug-metabolizer status is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Saliva-based testing to determine drug-metabolizer status",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Saliva-based testing to determine drug-metabolizer status is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 926,
+          "prompt_tokens": 844,
+          "completion_tokens": 82,
+          "total_cost": 0.00545,
+          "processing_time": 2.0473897457122803
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001134.html",
+    "subject": "Machine Learning Derived Probability Score for Rapid Kidney Function Decline",
+    "document_number": "LAB.00041",
+    "publish_date": "04/01/2024",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Use of a machine learning derived probability score (e.g., KidneyIntelX) to predict rapid kidney function decline in chronic kidney disease is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nUse of a machine learning derived probability score (e.g., KidneyIntelX) to predict rapid kidney function decline in chronic kidney disease is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Use of a machine learning derived probability score (e.g., KidneyIntelX) to predict rapid kidney function decline in chronic kidney disease",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Use of a machine learning derived probability score (e.g., KidneyIntelX) to predict rapid kidney function decline in chronic kidney disease is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 971,
+          "prompt_tokens": 859,
+          "completion_tokens": 112,
+          "total_cost": 0.005975,
+          "processing_time": 2.0018999576568604
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a049885.html",
+    "subject": "Detection of Circulating Tumor Cells",
+    "document_number": "LAB.00015",
+    "publish_date": "04/01/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Detection of circulating tumor cells in the blood is considered <strong>investigational and not medically necessary </strong>in the management of individuals with cancer.</p>",
+    "content": "Investigational and Not Medically Necessary:\nDetection of circulating tumor cells in the blood is considered investigational and not medically necessary in the management of individuals with cancer.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Detection of circulating tumor cells in the blood",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Detection of circulating tumor cells in the blood is considered investigational and not medically necessary in the management of individuals with cancer.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 925,
+          "prompt_tokens": 845,
+          "completion_tokens": 80,
+          "total_cost": 0.005424999999999999,
+          "processing_time": 1.7010560035705566
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001583.html",
+    "subject": "Testing for Biochemical Markers for Alzheimer\u2019s Disease",
+    "document_number": "LAB.00046",
+    "publish_date": "04/01/2024",
+    "status": "Revised",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Medically Necessary:</strong></p>\n<p>Measurement of long form amyloid beta (also referred to as A\u03b2, A\u03b21-42, Beta-amyloid [1-42], and Abeta42) in the cerebrospinal fluid is considered <strong>medically necessary</strong> in individuals for whom treatment with amyloid beta targeting therapy (for example, lecanemab-irmb [Leqembi<sup>\u2122</sup>]) is being considered.</p>\n<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Measurements of biochemical markers (including but not limited to tau protein, long form amyloid beta, neural thread protein) is considered <strong>investigational and not medically necessary</strong> as a diagnostic technique for individuals with symptoms suggestive of Alzheimer\u2019s disease when the criteria above have not been met.</p>\n<p>Measurements of biochemical markers as a screening technique in asymptomatic individuals with or without a family history of Alzheimer\u2019s disease is considered <strong>investigational and not medically necessary.</strong></p>",
+    "content": "Medically Necessary:\nMeasurement of long form amyloid beta (also referred to as A\u03b2, A\u03b21-42, Beta-amyloid [1-42], and Abeta42) in the cerebrospinal fluid is considered medically necessary in individuals for whom treatment with amyloid beta targeting therapy (for example, lecanemab-irmb [Leqembi<sup>\u2122</sup>]) is being considered.\nInvestigational and Not Medically Necessary:\nMeasurements of biochemical markers (including but not limited to tau protein, long form amyloid beta, neural thread protein) is considered investigational and not medically necessary as a diagnostic technique for individuals with symptoms suggestive of Alzheimer\u2019s disease when the criteria above have not been met.\nMeasurements of biochemical markers as a screening technique in asymptomatic individuals with or without a family history of Alzheimer\u2019s disease is considered investigational and not medically necessary.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Measurement of long form amyloid beta in the cerebrospinal fluid",
+            "sub_medical_act": null,
+            "necessity_type": "Medically Necessary",
+            "description": "Measurement of long form amyloid beta (also referred to as A\u03b2, A\u03b21-42, Beta-amyloid [1-42], and Abeta42) in the cerebrospinal fluid is considered medically necessary in individuals for whom treatment with amyloid beta targeting therapy (for example, lecanemab-irmb [Leqembi\u2122]) is being considered.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Measurements of biochemical markers as a diagnostic technique for individuals with symptoms suggestive of Alzheimer\u2019s disease",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Measurements of biochemical markers (including but not limited to tau protein, long form amyloid beta, neural thread protein) is considered investigational and not medically necessary as a diagnostic technique for individuals with symptoms suggestive of Alzheimer\u2019s disease when the criteria above have not been met.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Measurements of biochemical markers as a screening technique in asymptomatic individuals",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Measurements of biochemical markers as a screening technique in asymptomatic individuals with or without a family history of Alzheimer\u2019s disease is considered investigational and not medically necessary.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1336,
+          "prompt_tokens": 994,
+          "completion_tokens": 342,
+          "total_cost": 0.010100000000000001,
+          "processing_time": 5.4509007930755615
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001865.html",
+    "subject": "Artificial Intelligence-Based Software for Prostate Cancer Detection",
+    "document_number": "LAB.00049",
+    "publish_date": "01/03/2024",
+    "status": "Reviewed",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Use of artificial intelligence-based software for prostate cancer detection is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nUse of artificial intelligence-based software for prostate cancer detection is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Use of artificial intelligence-based software for prostate cancer detection",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Use of artificial intelligence-based software for prostate cancer detection is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 923,
+          "prompt_tokens": 843,
+          "completion_tokens": 80,
+          "total_cost": 0.005415,
+          "processing_time": 1.6314418315887451
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_b088847.html",
+    "subject": "Immune Cell Function Assay",
+    "document_number": "LAB.00024",
+    "publish_date": "01/03/2024",
+    "status": "Reviewed",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>An immune cell function assay is considered <strong>investigational and not medically necessary</strong> for all indications including, but not limited to:</p>\n<li>Management of solid organ transplant rejection in an individual undergoing immunosuppressive therapy;</li>\n<li>Identification of risk for rejection prior to kidney or any other solid organ transplantation;</li>\n<li>Management of autologous or allogeneic hematopoietic stem cell transplantation;</li>\n<li>Management of immunodeficiency disorders including human immunodeficiency virus (HIV) and severe combined immunodeficiency disease (SCID) and immune mediated disorders including rheumatoid arthritis (RA) and multiple sclerosis;</li>\n<li>Testing for urticaria;</li>\n<li>Diagnosis and management of Lyme disease.</li>",
+    "content": "Investigational and Not Medically Necessary:\nAn immune cell function assay is considered investigational and not medically necessary for all indications including, but not limited to:\n<li>Management of solid organ transplant rejection in an individual undergoing immunosuppressive therapy;</li>\n<li>Identification of risk for rejection prior to kidney or any other solid organ transplantation;</li>\n<li>Management of autologous or allogeneic hematopoietic stem cell transplantation;</li>\n<li>Management of immunodeficiency disorders including human immunodeficiency virus (HIV) and severe combined immunodeficiency disease (SCID) and immune mediated disorders including rheumatoid arthritis (RA) and multiple sclerosis;</li>\n<li>Testing for urticaria;</li>\n<li>Diagnosis and management of Lyme disease.</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Immune Cell Function Assay",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "An immune cell function assay is considered investigational and not medically necessary for all indications including, but not limited to:",
+            "conditions": {
+              "ANY": [
+                {
+                  "desc": "Management of solid organ transplant rejection in an individual undergoing immunosuppressive therapy",
+                  "conditions": null
+                },
+                {
+                  "desc": "Identification of risk for rejection prior to kidney or any other solid organ transplantation",
+                  "conditions": null
+                },
+                {
+                  "desc": "Management of autologous or allogeneic hematopoietic stem cell transplantation",
+                  "conditions": null
+                },
+                {
+                  "desc": "Management of immunodeficiency disorders including human immunodeficiency virus (HIV) and severe combined immunodeficiency disease (SCID) and immune mediated disorders including rheumatoid arthritis (RA) and multiple sclerosis",
+                  "conditions": null
+                },
+                {
+                  "desc": "Testing for urticaria",
+                  "conditions": null
+                },
+                {
+                  "desc": "Diagnosis and management of Lyme disease",
+                  "conditions": null
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "total_tokens": 1223,
+          "prompt_tokens": 970,
+          "completion_tokens": 253,
+          "total_cost": 0.008645,
+          "processing_time": 5.943116188049316
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c135468.html",
+    "subject": "Systems Pathology and Multimodal Artificial Intelligence Testing for Prostate Cancer",
+    "document_number": "LAB.00026",
+    "publish_date": "01/03/2024",
+    "status": "Revised",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Use of the laboratory tests using systems pathology and multimodal artificial intelligence methodology for individuals with prostate cancer is considered <strong>investigational and not medically necessary.</strong></p>",
+    "content": "Investigational and Not Medically Necessary:\nUse of the laboratory tests using systems pathology and multimodal artificial intelligence methodology for individuals with prostate cancer is considered investigational and not medically necessary.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Use of the laboratory tests using systems pathology and multimodal artificial intelligence methodology for individuals with prostate cancer",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Use of the laboratory tests using systems pathology and multimodal artificial intelligence methodology for individuals with prostate cancer is considered investigational and not medically necessary.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 944,
+          "prompt_tokens": 849,
+          "completion_tokens": 95,
+          "total_cost": 0.00567,
+          "processing_time": 2.0940752029418945
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e000817.html",
+    "subject": "Serologic Testing for Biomarkers of Irritable Bowel Syndrome (IBS)",
+    "document_number": "LAB.00037",
+    "publish_date": "01/03/2024",
+    "status": "Reviewed",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Serological testing for biomarkers of irritable bowel syndrome (for example, CdtB and anti-vinculin), using tests such as, IBSDetex, ibs-smart or IBSchek<a href=\"https://www.commdx.com/irritable-bowel-syndrome.html\">,</a> is considered<strong> investigational and not medically necessary </strong>for screening, diagnosis or management of irritable bowel syndrome, and<strong> </strong>for all other indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nSerological testing for biomarkers of irritable bowel syndrome (for example, CdtB and anti-vinculin), using tests such as, IBSDetex, ibs-smart or IBSchek<a href=\"https://www.commdx.com/irritable-bowel-syndrome.html\">,</a> is considered investigational and not medically necessary for screening, diagnosis or management of irritable bowel syndrome, and for all other indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Serological testing for biomarkers of irritable bowel syndrome",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Serological testing for biomarkers of irritable bowel syndrome (for example, CdtB and anti-vinculin), using tests such as, IBSDetex, ibs-smart or IBSchek, is considered investigational and not medically necessary for screening, diagnosis or management of irritable bowel syndrome, and for all other indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1034,
+          "prompt_tokens": 910,
+          "completion_tokens": 124,
+          "total_cost": 0.00641,
+          "processing_time": 2.1683828830718994
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c195342.html",
+    "subject": "Serological Antibody Testing For Helicobacter Pylori",
+    "document_number": "LAB.00034",
+    "publish_date": "01/03/2024",
+    "status": "Reviewed",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of serological antibody testing for <em>Helicobacter pylori</em> is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of serological antibody testing for Helicobacter pylori is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Serological Antibody Testing for Helicobacter pylori",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of serological antibody testing for Helicobacter pylori is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 927,
+          "prompt_tokens": 845,
+          "completion_tokens": 82,
+          "total_cost": 0.005455,
+          "processing_time": 2.5635690689086914
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e002725.html",
+    "subject": "Metagenomic Sequencing for Infectious Disease in the Outpatient Setting",
+    "document_number": "LAB.00050",
+    "publish_date": "01/03/2024",
+    "status": "New",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Metagenomic sequencing for infectious diseases in the outpatient setting is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nMetagenomic sequencing for infectious diseases in the outpatient setting is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Metagenomic sequencing for infectious diseases in the outpatient setting",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Metagenomic sequencing for infectious diseases in the outpatient setting is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 926,
+          "prompt_tokens": 844,
+          "completion_tokens": 82,
+          "total_cost": 0.00545,
+          "processing_time": 2.2919602394104004
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a050310.html",
+    "subject": "Fecal Analysis in the Diagnosis of Intestinal Disorders",
+    "document_number": "LAB.00016",
+    "publish_date": "12/28/2023",
+    "status": "Revised",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Fecal analysis panels are considered <strong>investigational and not medically necessary </strong>as a diagnostic test for the evaluation of intestinal dysbiosis, irritable bowel syndrome, malabsorption or small intestinal overgrowth of bacteria.</p>\n<p>Fecal analysis of the following components is considered <strong>investigational and not medically necessary </strong>as a diagnostic test for the evaluation of intestinal dysbiosis, irritable bowel syndrome, malabsorption or small intestinal overgrowth of bacteria:</p>\n<li>Beta-glucuronidase;</li>\n<li>Cholesterol;</li>\n<li>Chymotrypsin;</li>\n<li>Fecal secretory IgA;</li>\n<li>Iso-butyrate, N-butyrate;</li>\n<li>Iso-valerate and N-valerate;</li>\n<li>Levels of Lactobacilli, bifidobacteria and E. coli and other \u201cpotential pathogens,\u201d including Aeromona, Bacillus cereus, Campylobacter, Citrobacter, Klebsiella, Proteus, Pseudomonas, Salmonella, Shigella, S. aureus, Vibrio Identification and quantitation of fecal yeast (including C. albicans, C. tropicalis, Rhodotorula and Geotrichum);</li>\n<li>Long chain fatty acids;</li>\n<li>Meat and vegetable fibers;</li>\n<li>pH;</li>\n<li>Short chain fatty acid distribution (adequate amount and proportions of the different short chain fatty acids reflect the basic status of intestinal metabolism);</li>\n<li>Total short chain fatty acids;</li>\n<li>Triglycerides.</li>",
+    "content": "Investigational and Not Medically Necessary:\nFecal analysis panels are considered investigational and not medically necessary as a diagnostic test for the evaluation of intestinal dysbiosis, irritable bowel syndrome, malabsorption or small intestinal overgrowth of bacteria.\nFecal analysis of the following components is considered investigational and not medically necessary as a diagnostic test for the evaluation of intestinal dysbiosis, irritable bowel syndrome, malabsorption or small intestinal overgrowth of bacteria:\n<li>Beta-glucuronidase;</li>\n<li>Cholesterol;</li>\n<li>Chymotrypsin;</li>\n<li>Fecal secretory IgA;</li>\n<li>Iso-butyrate, N-butyrate;</li>\n<li>Iso-valerate and N-valerate;</li>\n<li>Levels of Lactobacilli, bifidobacteria and E. coli and other \u201cpotential pathogens,\u201d including Aeromona, Bacillus cereus, Campylobacter, Citrobacter, Klebsiella, Proteus, Pseudomonas, Salmonella, Shigella, S. aureus, Vibrio Identification and quantitation of fecal yeast (including C. albicans, C. tropicalis, Rhodotorula and Geotrichum);</li>\n<li>Long chain fatty acids;</li>\n<li>Meat and vegetable fibers;</li>\n<li>pH;</li>\n<li>Short chain fatty acid distribution (adequate amount and proportions of the different short chain fatty acids reflect the basic status of intestinal metabolism);</li>\n<li>Total short chain fatty acids;</li>\n<li>Triglycerides.</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Fecal analysis panels",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Fecal analysis panels are considered investigational and not medically necessary as a diagnostic test for the evaluation of intestinal dysbiosis, irritable bowel syndrome, malabsorption or small intestinal overgrowth of bacteria.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Fecal analysis of specific components",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Fecal analysis of the following components is considered investigational and not medically necessary as a diagnostic test for the evaluation of intestinal dysbiosis, irritable bowel syndrome, malabsorption or small intestinal overgrowth of bacteria:",
+            "conditions": {
+              "ALL": [
+                {
+                  "desc": "Beta-glucuronidase",
+                  "conditions": null
+                },
+                {
+                  "desc": "Cholesterol",
+                  "conditions": null
+                },
+                {
+                  "desc": "Chymotrypsin",
+                  "conditions": null
+                },
+                {
+                  "desc": "Fecal secretory IgA",
+                  "conditions": null
+                },
+                {
+                  "desc": "Iso-butyrate, N-butyrate",
+                  "conditions": null
+                },
+                {
+                  "desc": "Iso-valerate and N-valerate",
+                  "conditions": null
+                },
+                {
+                  "desc": "Levels of Lactobacilli, bifidobacteria and E. coli and other 'potential pathogens,' including Aeromona, Bacillus cereus, Campylobacter, Citrobacter, Klebsiella, Proteus, Pseudomonas, Salmonella, Shigella, S. aureus, Vibrio Identification and quantitation of fecal yeast (including C. albicans, C. tropicalis, Rhodotorula and Geotrichum)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Long chain fatty acids",
+                  "conditions": null
+                },
+                {
+                  "desc": "Meat and vegetable fibers",
+                  "conditions": null
+                },
+                {
+                  "desc": "pH",
+                  "conditions": null
+                },
+                {
+                  "desc": "Short chain fatty acid distribution (adequate amount and proportions of the different short chain fatty acids reflect the basic status of intestinal metabolism)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Total short chain fatty acids",
+                  "conditions": null
+                },
+                {
+                  "desc": "Triglycerides",
+                  "conditions": null
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "total_tokens": 1687,
+          "prompt_tokens": 1152,
+          "completion_tokens": 535,
+          "total_cost": 0.013785,
+          "processing_time": 28.681694984436035
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a050311.html",
+    "subject": "Proprietary Algorithms for Liver Fibrosis",
+    "document_number": "LAB.00019",
+    "publish_date": "12/28/2023",
+    "status": "Revised",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Proprietary algorithms evaluating liver fibrosis are considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nProprietary algorithms evaluating liver fibrosis are considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Proprietary algorithms evaluating liver fibrosis",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Proprietary algorithms evaluating liver fibrosis are considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 914,
+          "prompt_tokens": 840,
+          "completion_tokens": 74,
+          "total_cost": 0.00531,
+          "processing_time": 1.6804749965667725
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a049881.html",
+    "subject": "In Vitro Chemosensitivity Assays and In Vitro Chemoresistance Assays",
+    "document_number": "LAB.00003",
+    "publish_date": "12/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Not Medically Necessary:</strong></p>\n<p>In vitro chemosensitivity assays, as a guide to selection of chemotherapeutic drugs for individuals with cancer, are considered <strong>not medically necessary </strong>for all indications.<strong> </strong></p>\n<p>In vitro chemoresistance assays including, but not limited to, extreme drug resistance assays are considered <strong>not medically necessary</strong> for all indications.</p>",
+    "content": "Not Medically Necessary:\nIn vitro chemosensitivity assays, as a guide to selection of chemotherapeutic drugs for individuals with cancer, are considered not medically necessary for all indications. \nIn vitro chemoresistance assays including, but not limited to, extreme drug resistance assays are considered not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "In vitro chemosensitivity assays",
+            "sub_medical_act": null,
+            "necessity_type": "Not Medically Necessary",
+            "description": "In vitro chemosensitivity assays, as a guide to selection of chemotherapeutic drugs for individuals with cancer, are considered not medically necessary for all indications.",
+            "conditions": null
+          },
+          {
+            "medical_act": "In vitro chemoresistance assays",
+            "sub_medical_act": null,
+            "necessity_type": "Not Medically Necessary",
+            "description": "In vitro chemoresistance assays including, but not limited to, extreme drug resistance assays are considered not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1033,
+          "prompt_tokens": 876,
+          "completion_tokens": 157,
+          "total_cost": 0.006735,
+          "processing_time": 3.304769992828369
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c155960.html",
+    "subject": "Blood-based Biomarker Tests for Multiple Sclerosis",
+    "document_number": "LAB.00028",
+    "publish_date": "09/27/2023",
+    "status": "Revised",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Blood-based biomarker tests for multiple sclerosis are considered<strong> investigational and not medically necessary</strong> for all uses.</p>",
+    "content": "Investigational and Not Medically Necessary:\nBlood-based biomarker tests for multiple sclerosis are considered investigational and not medically necessary for all uses.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Blood-based biomarker tests for multiple sclerosis",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Blood-based biomarker tests for multiple sclerosis are considered investigational and not medically necessary for all uses.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 917,
+          "prompt_tokens": 841,
+          "completion_tokens": 76,
+          "total_cost": 0.005344999999999999,
+          "processing_time": 1.734210729598999
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c160707.html",
+    "subject": "Rupture of Membranes Testing in Pregnancy",
+    "document_number": "LAB.00029",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Not Medically Necessary:</strong></p>\n<p>Evaluation of cervicovaginal fluid for specific amniotic fluid protein(s), (for example, placental alpha microglobulin-1 [PAMG-1], placental protein 12 [PP12], alpha-fetoprotein), is considered <strong>not medically necessary</strong> for all indications, including detection of preterm rupture of membranes.</p>",
+    "content": "Not Medically Necessary:\nEvaluation of cervicovaginal fluid for specific amniotic fluid protein(s), (for example, placental alpha microglobulin-1 [PAMG-1], placental protein 12 [PP12], alpha-fetoprotein), is considered not medically necessary for all indications, including detection of preterm rupture of membranes.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Evaluation of cervicovaginal fluid for specific amniotic fluid protein(s)",
+            "sub_medical_act": null,
+            "necessity_type": "Not Medically Necessary",
+            "description": "Evaluation of cervicovaginal fluid for specific amniotic fluid protein(s), (for example, placental alpha microglobulin-1 [PAMG-1], placental protein 12 [PP12], alpha-fetoprotein), is considered not medically necessary for all indications, including detection of preterm rupture of membranes.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1017,
+          "prompt_tokens": 887,
+          "completion_tokens": 130,
+          "total_cost": 0.006385,
+          "processing_time": 2.303560972213745
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_d089495.html",
+    "subject": "Multiplex Autoantigen Microarray Testing for Systemic Lupus Erythematosus",
+    "document_number": "LAB.00036",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Multiplex autoantigen microarray testing to screen for, diagnose, or manage systemic lupus erythematous is considered <strong>investigational and not medically necessary</strong>.</p>",
+    "content": "Investigational and Not Medically Necessary:\nMultiplex autoantigen microarray testing to screen for, diagnose, or manage systemic lupus erythematous is considered investigational and not medically necessary.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Multiplex autoantigen microarray testing to screen for, diagnose, or manage systemic lupus erythematous",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Multiplex autoantigen microarray testing to screen for, diagnose, or manage systemic lupus erythematous is considered investigational and not medically necessary.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 953,
+          "prompt_tokens": 852,
+          "completion_tokens": 101,
+          "total_cost": 0.005775,
+          "processing_time": 1.6316781044006348
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001254.html",
+    "subject": "Molecular Signature Test for Predicting Response to Tumor Necrosis Factor Inhibitor Therapy",
+    "document_number": "LAB.00042",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Molecular signature testing to predict response to Tumor Necrosis Factor inhibitor (TNFi) therapy is considered <strong>investigational and not medically necessary</strong> for all uses, including but not limited to guiding treatment for rheumatoid arthritis.</p>",
+    "content": "Investigational and Not Medically Necessary:\nMolecular signature testing to predict response to Tumor Necrosis Factor inhibitor (TNFi) therapy is considered investigational and not medically necessary for all uses, including but not limited to guiding treatment for rheumatoid arthritis.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Molecular signature testing to predict response to Tumor Necrosis Factor inhibitor (TNFi) therapy",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Molecular signature testing to predict response to Tumor Necrosis Factor inhibitor (TNFi) therapy is considered investigational and not medically necessary for all uses, including but not limited to guiding treatment for rheumatoid arthritis.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 972,
+          "prompt_tokens": 863,
+          "completion_tokens": 109,
+          "total_cost": 0.00595,
+          "processing_time": 2.2556231021881104
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001260.html",
+    "subject": "Serum Biomarker Tests for Risk of Preeclampsia",
+    "document_number": "LAB.00040",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Serum biomarker tests to diagnosis, screen for, or assess risk of preeclampsia are considered <strong>investigational and not medically necessary</strong>.</p>",
+    "content": "Investigational and Not Medically Necessary:\nSerum biomarker tests to diagnosis, screen for, or assess risk of preeclampsia are considered investigational and not medically necessary.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Serum biomarker tests to diagnosis, screen for, or assess risk of preeclampsia",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Serum biomarker tests to diagnosis, screen for, or assess risk of preeclampsia are considered investigational and not medically necessary.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 947,
+          "prompt_tokens": 850,
+          "completion_tokens": 97,
+          "total_cost": 0.005705,
+          "processing_time": 2.489280939102173
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a049883.html",
+    "subject": "Selected Protein Biomarker Algorithmic Assays",
+    "document_number": "LAB.00011",
+    "publish_date": "09/27/2023",
+    "status": "Revised",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The following protein biomarker algorithmic assays are considered <strong>investigational and not medically necessary</strong> for all indications:</p>\n<li>BDX-XL2 (Nodify XL2<sup>\u00ae</sup>)</li>\n<li>EarlyCDT<sup>\u00ae</sup>-Lung test (Nodify CDT<sup>\u00ae</sup>)</li>\n<li>IMMray<sup>\u00ae</sup> PanCan-d</li>\n<li>LC-MS/MS Targeted Proteomic Assay</li>\n<li>PreTRM</li>\n<li>REVEAL Lung Nodule Characterization</li>\n<li>Theralink<sup>\u00ae</sup> Reverse Phase Protein Array</li>\n<li>VeriStrat<sup>\u00ae</sup>.</li>",
+    "content": "Investigational and Not Medically Necessary:\nThe following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:\n<li>BDX-XL2 (Nodify XL2<sup>\u00ae</sup>)</li>\n<li>EarlyCDT<sup>\u00ae</sup>-Lung test (Nodify CDT<sup>\u00ae</sup>)</li>\n<li>IMMray<sup>\u00ae</sup> PanCan-d</li>\n<li>LC-MS/MS Targeted Proteomic Assay</li>\n<li>PreTRM</li>\n<li>REVEAL Lung Nodule Characterization</li>\n<li>Theralink<sup>\u00ae</sup> Reverse Phase Protein Array</li>\n<li>VeriStrat<sup>\u00ae</sup>.</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "BDX-XL2 (Nodify XL2\u00ae)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "EarlyCDT\u00ae-Lung test (Nodify CDT\u00ae)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "IMMray\u00ae PanCan-d",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "LC-MS/MS Targeted Proteomic Assay",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "PreTRM",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "REVEAL Lung Nodule Characterization",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Theralink\u00ae Reverse Phase Protein Array",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "VeriStrat\u00ae",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following protein biomarker algorithmic assays are considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1575,
+          "prompt_tokens": 980,
+          "completion_tokens": 595,
+          "total_cost": 0.013824999999999999,
+          "processing_time": 8.599241971969604
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c154200.html",
+    "subject": "Selected Blood, Serum and Cellular Allergy and Toxicity Tests",
+    "document_number": "LAB.00027",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The following blood, serum and cellular allergy or toxicity tests are considered <strong>investigational and not medically necessary:&nbsp; </strong></p>\n<ul>\t<li>Antigen leukocyte cellular antibody test (ALCAT); <strong>or</strong></li>\t<li>Basophil activation test (BAT); <strong>or</strong></li>\t<li>Cytotoxic test; <strong>or</strong></li>\t<li>HEMOCODE Food Tolerance System; <strong>or</strong></li>\t<li>IgG food sensitivity test; <strong>or</strong></li>\t<li>Immuno Blood Print test; <strong>or</strong></li>\t<li>Leukocyte histamine release test (LHRT); <strong>or</strong></li>\t<li>Mediator Release Test.</li></ul>\n<li>Antigen leukocyte cellular antibody test (ALCAT); <strong>or</strong></li>\n<li>Basophil activation test (BAT); <strong>or</strong></li>\n<li>Cytotoxic test; <strong>or</strong></li>\n<li>HEMOCODE Food Tolerance System; <strong>or</strong></li>\n<li>IgG food sensitivity test; <strong>or</strong></li>\n<li>Immuno Blood Print test; <strong>or</strong></li>\n<li>Leukocyte histamine release test (LHRT); <strong>or</strong></li>\n<li>Mediator Release Test.</li>",
+    "content": "Investigational and Not Medically Necessary:\nThe following blood, serum and cellular allergy or toxicity tests are considered investigational and not medically necessary:\u00a0 \n<ul> <li>Antigen leukocyte cellular antibody test (ALCAT); or</li> <li>Basophil activation test (BAT); or</li> <li>Cytotoxic test; or</li> <li>HEMOCODE Food Tolerance System; or</li> <li>IgG food sensitivity test; or</li> <li>Immuno Blood Print test; or</li> <li>Leukocyte histamine release test (LHRT); or</li> <li>Mediator Release Test.</li></ul>\n<li>Antigen leukocyte cellular antibody test (ALCAT); or</li>\n<li>Basophil activation test (BAT); or</li>\n<li>Cytotoxic test; or</li>\n<li>HEMOCODE Food Tolerance System; or</li>\n<li>IgG food sensitivity test; or</li>\n<li>Immuno Blood Print test; or</li>\n<li>Leukocyte histamine release test (LHRT); or</li>\n<li>Mediator Release Test.</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Blood, serum and cellular allergy or toxicity tests",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The following blood, serum and cellular allergy or toxicity tests are considered investigational and not medically necessary:",
+            "conditions": {
+              "ANY": [
+                {
+                  "desc": "Antigen leukocyte cellular antibody test (ALCAT)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Basophil activation test (BAT)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Cytotoxic test",
+                  "conditions": null
+                },
+                {
+                  "desc": "HEMOCODE Food Tolerance System",
+                  "conditions": null
+                },
+                {
+                  "desc": "IgG food sensitivity test",
+                  "conditions": null
+                },
+                {
+                  "desc": "Immuno Blood Print test",
+                  "conditions": null
+                },
+                {
+                  "desc": "Leukocyte histamine release test (LHRT)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Mediator Release Test",
+                  "conditions": null
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "total_tokens": 1301,
+          "prompt_tokens": 1067,
+          "completion_tokens": 234,
+          "total_cost": 0.008844999999999999,
+          "processing_time": 6.547079801559448
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001736.html",
+    "subject": "Pain Management Biomarker Analysis",
+    "document_number": "LAB.00048",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The functional pain biomarker urine test panel is considered <strong>investigational and not medically necessary</strong> for chronic pain management and for all other indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe functional pain biomarker urine test panel is considered investigational and not medically necessary for chronic pain management and for all other indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Functional Pain Biomarker Urine Test Panel",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The functional pain biomarker urine test panel is considered investigational and not medically necessary for chronic pain management and for all other indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 929,
+          "prompt_tokens": 847,
+          "completion_tokens": 82,
+          "total_cost": 0.005465,
+          "processing_time": 1.5247209072113037
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c197570.html",
+    "subject": "Multi-biomarker Disease Activity Blood Tests for Rheumatoid Arthritis",
+    "document_number": "LAB.00035",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of multi-biomarker disease activity blood testing for rheumatoid arthritis (for example, Vectra DA) is considered <strong>investigational and not medically necessary </strong>in all situations.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of multi-biomarker disease activity blood testing for rheumatoid arthritis (for example, Vectra DA) is considered investigational and not medically necessary in all situations.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Multi-biomarker disease activity blood testing for rheumatoid arthritis (for example, Vectra DA)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of multi-biomarker disease activity blood testing for rheumatoid arthritis (for example, Vectra DA) is considered investigational and not medically necessary in all situations.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 958,
+          "prompt_tokens": 856,
+          "completion_tokens": 102,
+          "total_cost": 0.00581,
+          "processing_time": 1.9052650928497314
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c181182.html",
+    "subject": "Advanced Lipoprotein Testing",
+    "document_number": "LAB.00031",
+    "publish_date": "06/28/2023",
+    "status": "Revised",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Advanced lipoprotein testing (testing beyond that of a basic lipid panel) is considered <strong>investigational and not medically necessary</strong> for all indications, including for cardiovascular disease (CVD) risk assessment and management. Advanced lipoprotein testing includes, but is not limited to:</p>\n<li>Apolipoprotein A-I (apoAI);</li>\n<li>Apolipoprotein B (apoB);</li>\n<li>Apolipoprotein E (apoE);</li>\n<li>Intermediate density lipoproteins (IDL);</li>\n<li>Lipoprotein(a) (Lp(a)) enzyme immunoassay;</li>\n<li>Lipoprotein-associated phospholipase A2 (Lp-PLA2);</li>\n<li>Small density lipoproteins.</li>",
+    "content": "Investigational and Not Medically Necessary:\nAdvanced lipoprotein testing (testing beyond that of a basic lipid panel) is considered investigational and not medically necessary for all indications, including for cardiovascular disease (CVD) risk assessment and management. Advanced lipoprotein testing includes, but is not limited to:\n<li>Apolipoprotein A-I (apoAI);</li>\n<li>Apolipoprotein B (apoB);</li>\n<li>Apolipoprotein E (apoE);</li>\n<li>Intermediate density lipoproteins (IDL);</li>\n<li>Lipoprotein(a) (Lp(a)) enzyme immunoassay;</li>\n<li>Lipoprotein-associated phospholipase A2 (Lp-PLA2);</li>\n<li>Small density lipoproteins.</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Advanced lipoprotein testing",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Advanced lipoprotein testing (testing beyond that of a basic lipid panel) is considered investigational and not medically necessary for all indications, including for cardiovascular disease (CVD) risk assessment and management. Advanced lipoprotein testing includes, but is not limited to:",
+            "conditions": {
+              "ALL": [
+                {
+                  "desc": "Apolipoprotein A-I (apoAI)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Apolipoprotein B (apoB)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Apolipoprotein E (apoE)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Intermediate density lipoproteins (IDL)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Lipoprotein(a) (Lp(a)) enzyme immunoassay",
+                  "conditions": null
+                },
+                {
+                  "desc": "Lipoprotein-associated phospholipase A2 (Lp-PLA2)",
+                  "conditions": null
+                },
+                {
+                  "desc": "Small density lipoproteins",
+                  "conditions": null
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "total_tokens": 1249,
+          "prompt_tokens": 980,
+          "completion_tokens": 269,
+          "total_cost": 0.008935,
+          "processing_time": 4.3494720458984375
+        }
+      }
+    ]
+  }
+]

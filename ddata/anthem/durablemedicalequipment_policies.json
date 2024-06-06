@@ -1,0 +1,682 @@
+[
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a049573.html",
+    "subject": "Functional Electrical Stimulation (FES); Threshold Electrical Stimulation (TES)",
+    "document_number": "DME.00022",
+    "publish_date": "04/10/2024",
+    "status": "Revised",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Functional electrical stimulation (FES) is considered <strong>investigational and not medically necessary</strong> for all indications, including but not limited to:</p>\n<li>When used to prevent or reverse muscular atrophy (wasting) and bone demineralization (loss), by stimulating paralyzed limbs for the performance of stationary exercise, or to correct gait disorders. This includes, but is not limited to, functional electrical stimulation ergometer devices (for example, ERGYS<sup>\u00ae</sup> and ERGYS<sup>\u00ae</sup> 2); <strong>or</strong></li>\n<li>When used to promote ambulation (for example, Parastep<sup>\u00ae</sup> I System); <strong>or</strong></li>\n<li>When used to activate muscles of the upper limb or lower limb to produce functional movement patterns. This includes, but is not limited to, the NESS H200<sup>\u00ae</sup> Handmaster Rehabilitation System, NESS L300<sup>\u2122</sup> Foot Drop System, ODFS Dropped Foot Stimulator, and the WalkAide<sup>\u00ae</sup> System.</li>\n<p>Threshold electrical stimulation (TES) is considered <strong>investigational and not medically necessary </strong>for all indications including, but not limited to, treatment of motor disorders such as cerebral palsy or scoliosis.</p>",
+    "content": "Investigational and Not Medically Necessary:\nFunctional electrical stimulation (FES) is considered investigational and not medically necessary for all indications, including but not limited to:\n<li>When used to prevent or reverse muscular atrophy (wasting) and bone demineralization (loss), by stimulating paralyzed limbs for the performance of stationary exercise, or to correct gait disorders. This includes, but is not limited to, functional electrical stimulation ergometer devices (for example, ERGYS<sup>\u00ae</sup> and ERGYS<sup>\u00ae</sup> 2); or</li>\n<li>When used to promote ambulation (for example, Parastep<sup>\u00ae</sup> I System); or</li>\n<li>When used to activate muscles of the upper limb or lower limb to produce functional movement patterns. This includes, but is not limited to, the NESS H200<sup>\u00ae</sup> Handmaster Rehabilitation System, NESS L300<sup>\u2122</sup> Foot Drop System, ODFS Dropped Foot Stimulator, and the WalkAide<sup>\u00ae</sup> System.</li>\nThreshold electrical stimulation (TES) is considered investigational and not medically necessary for all indications including, but not limited to, treatment of motor disorders such as cerebral palsy or scoliosis.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Functional electrical stimulation (FES)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Functional electrical stimulation (FES) is considered investigational and not medically necessary for all indications, including but not limited to:",
+            "conditions": {
+              "ANY": [
+                {
+                  "desc": "When used to prevent or reverse muscular atrophy (wasting) and bone demineralization (loss), by stimulating paralyzed limbs for the performance of stationary exercise, or to correct gait disorders. This includes, but is not limited to, functional electrical stimulation ergometer devices (for example, ERGYS\u00ae and ERGYS\u00ae 2)",
+                  "conditions": null
+                },
+                {
+                  "desc": "When used to promote ambulation (for example, Parastep\u00ae I System)",
+                  "conditions": null
+                },
+                {
+                  "desc": "When used to activate muscles of the upper limb or lower limb to produce functional movement patterns. This includes, but is not limited to, the NESS H200\u00ae Handmaster Rehabilitation System, NESS L300\u2122 Foot Drop System, ODFS Dropped Foot Stimulator, and the WalkAide\u00ae System",
+                  "conditions": null
+                }
+              ]
+            }
+          },
+          {
+            "medical_act": "Threshold electrical stimulation (TES)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Threshold electrical stimulation (TES) is considered investigational and not medically necessary for all indications including, but not limited to, treatment of motor disorders such as cerebral palsy or scoliosis.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1457,
+          "prompt_tokens": 1086,
+          "completion_tokens": 371,
+          "total_cost": 0.010995000000000001,
+          "processing_time": 6.61685037612915
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a049784.html",
+    "subject": "Automated External Defibrillators for Home Use",
+    "document_number": "DME.00032",
+    "publish_date": "04/10/2024",
+    "status": "Reviewed",
+    "last_review_date": "02/15/2024",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Automated external defibrillators for home use are considered <strong>investigational and not medically necessary</strong><strong>.</strong></p>",
+    "content": "Investigational and Not Medically Necessary:\nAutomated external defibrillators for home use are considered investigational and not medically necessary.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Automated external defibrillators for home use",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Automated external defibrillators for home use are considered investigational and not medically necessary.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 917,
+          "prompt_tokens": 840,
+          "completion_tokens": 77,
+          "total_cost": 0.0053549999999999995,
+          "processing_time": 1.7100911140441895
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001873.html",
+    "subject": "External Upper Limb Stimulation for the Treatment of Tremors",
+    "document_number": "DME.00049",
+    "publish_date": "12/28/2023",
+    "status": "Revised",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Wrist-worn external upper limb tremor stimulator is considered <strong>investigational and not medically necessary</strong> for all indications, including but not limited to the treatment of essential tremor of the hands and Parkinson\u2019s disease.</p>",
+    "content": "Investigational and Not Medically Necessary:\nWrist-worn external upper limb tremor stimulator is considered investigational and not medically necessary for all indications, including but not limited to the treatment of essential tremor of the hands and Parkinson\u2019s disease.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Wrist-worn external upper limb tremor stimulator",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Wrist-worn external upper limb tremor stimulator is considered investigational and not medically necessary for all indications, including but not limited to the treatment of essential tremor of the hands and Parkinson\u2019s disease.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 964,
+          "prompt_tokens": 863,
+          "completion_tokens": 101,
+          "total_cost": 0.00583,
+          "processing_time": 1.7611711025238037
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e000515.html",
+    "subject": "Electronic Positional Devices for the Treatment of Obstructive Sleep Apnea",
+    "document_number": "DME.00042",
+    "publish_date": "12/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Electronic positional therapy devices are considered <strong>investigational and not medically necessary</strong> in the treatment of obstructive sleep apnea.</p>",
+    "content": "Investigational and Not Medically Necessary:\nElectronic positional therapy devices are considered investigational and not medically necessary in the treatment of obstructive sleep apnea.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Electronic positional therapy devices",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electronic positional therapy devices are considered investigational and not medically necessary in the treatment of obstructive sleep apnea.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 915,
+          "prompt_tokens": 842,
+          "completion_tokens": 73,
+          "total_cost": 0.005305,
+          "processing_time": 1.6399412155151367
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001258.html",
+    "subject": "Neuromuscular Electrical Training for the Treatment of Obstructive Sleep Apnea or Snoring",
+    "document_number": "DME.00043",
+    "publish_date": "12/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of a neuromuscular electrical training device is considered <strong>investigational and not medically necessary</strong> for the treatment of obstructive sleep apnea or snoring.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of a neuromuscular electrical training device is considered investigational and not medically necessary for the treatment of obstructive sleep apnea or snoring.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Use of a neuromuscular electrical training device",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of a neuromuscular electrical training device is considered investigational and not medically necessary for the treatment of obstructive sleep apnea or snoring.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 941,
+          "prompt_tokens": 852,
+          "completion_tokens": 89,
+          "total_cost": 0.005594999999999999,
+          "processing_time": 2.1491823196411133
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a049569.html",
+    "subject": "Electrical Stimulation as a Treatment for Pain and Other Conditions: Surface and Percutaneous Devices",
+    "document_number": "DME.00011",
+    "publish_date": "12/28/2023",
+    "status": "Revised",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p class=\"MsoAcetate\"><strong>Note</strong>: For examples of devices, see Types of Devices Used for Treatment in the Background/Overview section.</p>\n<p>Electrical stimulation using the following techniques is considered <strong>investigational and not medically necessary</strong> for all indications:</p>\n<li class=\"MsoAcetate\">Auricular electrostimulation</li>\n<li class=\"MsoAcetate\">Cranial electrical stimulation (CES)</li>\n<li class=\"MsoAcetate\">Electrical stimulation wound treatment device</li>\n<li class=\"MsoAcetate\">Electromagnetic wound treatment device</li>\n<li class=\"MsoAcetate\">H-Wave electrical stimulation devices</li>\n<li class=\"MsoAcetate\">Interferential therapy (IF)</li>\n<li class=\"MsoAcetate\">Microcurrent electrical nerve stimulation (MENS) devices</li>\n<li class=\"MsoAcetate\">Non-implantable percutaneous neuromodulation therapy</li>\n<li class=\"MsoAcetate\">Percutaneous electrical nerve field stimulation (PENFS)</li>\n<li class=\"MsoAcetate\">Pulsed electrical stimulation</li>\n<li class=\"MsoAcetate\">Pulsed electromagnetic field stimulation (PEMF)</li>\n<li class=\"MsoAcetate\">Remote electrical neuromodulation (REN)</li>\n<li class=\"MsoAcetate\">Supraorbital transcutaneous neurostimulation</li>\n<li class=\"MsoAcetate\">Sympathetic Therapy</li>\n<li class=\"MsoAcetate\">Transcutaneous electrical modulation pain reprocessing</li>",
+    "content": "Investigational and Not Medically Necessary:\nNote: For examples of devices, see Types of Devices Used for Treatment in the Background/Overview section.\nElectrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:\n<li class=\"MsoAcetate\">Auricular electrostimulation</li>\n<li class=\"MsoAcetate\">Cranial electrical stimulation (CES)</li>\n<li class=\"MsoAcetate\">Electrical stimulation wound treatment device</li>\n<li class=\"MsoAcetate\">Electromagnetic wound treatment device</li>\n<li class=\"MsoAcetate\">H-Wave electrical stimulation devices</li>\n<li class=\"MsoAcetate\">Interferential therapy (IF)</li>\n<li class=\"MsoAcetate\">Microcurrent electrical nerve stimulation (MENS) devices</li>\n<li class=\"MsoAcetate\">Non-implantable percutaneous neuromodulation therapy</li>\n<li class=\"MsoAcetate\">Percutaneous electrical nerve field stimulation (PENFS)</li>\n<li class=\"MsoAcetate\">Pulsed electrical stimulation</li>\n<li class=\"MsoAcetate\">Pulsed electromagnetic field stimulation (PEMF)</li>\n<li class=\"MsoAcetate\">Remote electrical neuromodulation (REN)</li>\n<li class=\"MsoAcetate\">Supraorbital transcutaneous neurostimulation</li>\n<li class=\"MsoAcetate\">Sympathetic Therapy</li>\n<li class=\"MsoAcetate\">Transcutaneous electrical modulation pain reprocessing</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Auricular electrostimulation",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Cranial electrical stimulation (CES)",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Electrical stimulation wound treatment device",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Electromagnetic wound treatment device",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "H-Wave electrical stimulation devices",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Interferential therapy (IF)",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Microcurrent electrical nerve stimulation (MENS) devices",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Non-implantable percutaneous neuromodulation therapy",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Percutaneous electrical nerve field stimulation (PENFS)",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Pulsed electrical stimulation",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Pulsed electromagnetic field stimulation (PEMF)",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Remote electrical neuromodulation (REN)",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Supraorbital transcutaneous neurostimulation",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Sympathetic Therapy",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          },
+          {
+            "medical_act": "Electrical stimulation using the following techniques",
+            "sub_medical_act": "Transcutaneous electrical modulation pain reprocessing",
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Electrical stimulation using the following techniques is considered investigational and not medically necessary for all indications:",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 2314,
+          "prompt_tokens": 1149,
+          "completion_tokens": 1165,
+          "total_cost": 0.02322,
+          "processing_time": 23.591110944747925
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001738.html",
+    "subject": "Intermittent Abdominal Pressure Ventilation Devices",
+    "document_number": "DME.00046",
+    "publish_date": "12/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Intermittent abdominal pressure ventilation devices are considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nIntermittent abdominal pressure ventilation devices are considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Intermittent abdominal pressure ventilation devices",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Intermittent abdominal pressure ventilation devices are considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 914,
+          "prompt_tokens": 840,
+          "completion_tokens": 74,
+          "total_cost": 0.00531,
+          "processing_time": 1.8847620487213135
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001874.html",
+    "subject": "Remote Devices for Intermittent Monitoring of Intraocular Pressure",
+    "document_number": "DME.00050",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of remote devices for intermittent monitoring of IOP is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of remote devices for intermittent monitoring of IOP is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "The use of remote devices for intermittent monitoring of IOP",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of remote devices for intermittent monitoring of IOP is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 926,
+          "prompt_tokens": 844,
+          "completion_tokens": 82,
+          "total_cost": 0.00545,
+          "processing_time": 1.9593260288238525
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e000368.html",
+    "subject": "Ultrasonic Diathermy Devices",
+    "document_number": "DME.00041",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Ultrasonic diathermy devices are considered <strong>investigational and not medically necessary </strong>for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nUltrasonic diathermy devices are considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Ultrasonic diathermy devices",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Ultrasonic diathermy devices are considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 917,
+          "prompt_tokens": 841,
+          "completion_tokens": 76,
+          "total_cost": 0.005344999999999999,
+          "processing_time": 1.7247138023376465
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a049576.html",
+    "subject": "Self-Operated Spinal Unloading Devices",
+    "document_number": "DME.00025",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Self-operated spinal unloading devices including, but not limited to, gravity-dependent and pneumatic devices, are considered<strong> investigational and not medically necessary </strong>for all indications including, but not limited to, the treatment of low back pain and scoliosis.</p>",
+    "content": "Investigational and Not Medically Necessary:\nSelf-operated spinal unloading devices including, but not limited to, gravity-dependent and pneumatic devices, are considered investigational and not medically necessary for all indications including, but not limited to, the treatment of low back pain and scoliosis.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Self-operated spinal unloading devices",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Self-operated spinal unloading devices including, but not limited to, gravity-dependent and pneumatic devices, are considered investigational and not medically necessary for all indications including, but not limited to, the treatment of low back pain and scoliosis.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 966,
+          "prompt_tokens": 867,
+          "completion_tokens": 99,
+          "total_cost": 0.0058200000000000005,
+          "processing_time": 2.780874013900757
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001423.html",
+    "subject": "Robotic Arm Assistive Devices",
+    "document_number": "DME.00044",
+    "publish_date": "09/27/2023",
+    "status": "Reviewed",
+    "last_review_date": "08/10/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of a robotic feeding assistive device or wheelchair mounted robotic arm is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of a robotic feeding assistive device or wheelchair mounted robotic arm is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Use of a robotic feeding assistive device or wheelchair mounted robotic arm",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of a robotic feeding assistive device or wheelchair mounted robotic arm is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 934,
+          "prompt_tokens": 847,
+          "completion_tokens": 87,
+          "total_cost": 0.00554,
+          "processing_time": 1.9368829727172852
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001740.html",
+    "subject": "Virtual Reality-Assisted Therapy Systems",
+    "document_number": "DME.00048",
+    "publish_date": "06/28/2023",
+    "status": "Revised",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Use of virtual reality systems for screening, diagnosis, or treatment of a health condition is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nUse of virtual reality systems for screening, diagnosis, or treatment of a health condition is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Use of virtual reality systems for screening, diagnosis, or treatment of a health condition",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Use of virtual reality systems for screening, diagnosis, or treatment of a health condition is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 941,
+          "prompt_tokens": 849,
+          "completion_tokens": 92,
+          "total_cost": 0.005625,
+          "processing_time": 2.061918020248413
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c164424.html",
+    "subject": "Cooling Devices and Combined Cooling/Heating Devices",
+    "document_number": "DME.00037",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p style=\"text-align:justify\"><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Active or passive cooling devices (with or without pneumatic compression or vibration) are considered <strong>investigational and</strong> <strong>not medically necessary</strong> for all uses, including but not limited to recovery after orthopedic surgery or trauma.</p>\n<p>Active or passive devices that combine cooling and heating are considered <strong>investigational and not medically necessary</strong> for all uses.</p>",
+    "content": "Investigational and Not Medically Necessary:\nActive or passive cooling devices (with or without pneumatic compression or vibration) are considered investigational and not medically necessary for all uses, including but not limited to recovery after orthopedic surgery or trauma.\nActive or passive devices that combine cooling and heating are considered investigational and not medically necessary for all uses.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Active or passive cooling devices (with or without pneumatic compression or vibration)",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Active or passive cooling devices (with or without pneumatic compression or vibration) are considered investigational and not medically necessary for all uses, including but not limited to recovery after orthopedic surgery or trauma.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Active or passive devices that combine cooling and heating",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Active or passive devices that combine cooling and heating are considered investigational and not medically necessary for all uses.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1055,
+          "prompt_tokens": 880,
+          "completion_tokens": 175,
+          "total_cost": 0.007025,
+          "processing_time": 2.7599050998687744
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a050283.html",
+    "subject": "Intrapulmonary Percussive Ventilation Devices",
+    "document_number": "DME.00012",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Intrapulmonary percussive ventilation devices are considered <strong>investigational and not medically necessary</strong> for all indications, including but not limited to the following:</p>\n<ul style=\"list-style-type:disc\">\t<li>Cystic fibrosis; <strong>or</strong></li>\t<li>Bronchiectasis; <strong>or</strong></li>\t<li>Chronic obstructive pulmonary disease; <strong>or</strong></li>\t<li>Neuromuscular conditions associated with retained airway secretions or atelectasis.</li></ul>\n<li>Cystic fibrosis; <strong>or</strong></li>\n<li>Bronchiectasis; <strong>or</strong></li>\n<li>Chronic obstructive pulmonary disease; <strong>or</strong></li>\n<li>Neuromuscular conditions associated with retained airway secretions or atelectasis.</li>",
+    "content": "Investigational and Not Medically Necessary:\nIntrapulmonary percussive ventilation devices are considered investigational and not medically necessary for all indications, including but not limited to the following:\n<ul style=\"list-style-type:disc\"> <li>Cystic fibrosis; or</li> <li>Bronchiectasis; or</li> <li>Chronic obstructive pulmonary disease; or</li> <li>Neuromuscular conditions associated with retained airway secretions or atelectasis.</li></ul>\n<li>Cystic fibrosis; or</li>\n<li>Bronchiectasis; or</li>\n<li>Chronic obstructive pulmonary disease; or</li>\n<li>Neuromuscular conditions associated with retained airway secretions or atelectasis.</li>",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Intrapulmonary percussive ventilation devices",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Intrapulmonary percussive ventilation devices are considered investigational and not medically necessary for all indications, including but not limited to the following:",
+            "conditions": {
+              "ANY": [
+                {
+                  "desc": "Cystic fibrosis",
+                  "conditions": null
+                },
+                {
+                  "desc": "Bronchiectasis",
+                  "conditions": null
+                },
+                {
+                  "desc": "Chronic obstructive pulmonary disease",
+                  "conditions": null
+                },
+                {
+                  "desc": "Neuromuscular conditions associated with retained airway secretions or atelectasis",
+                  "conditions": null
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "total_tokens": 1144,
+          "prompt_tokens": 973,
+          "completion_tokens": 171,
+          "total_cost": 0.007430000000000001,
+          "processing_time": 2.969766855239868
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a050289.html",
+    "subject": "Altered Auditory Feedback Devices for Fluency Disorders",
+    "document_number": "DME.00030",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Altered auditory feedback (AAF) devices are considered <strong>investigational and not medically necessary</strong> for the treatment of fluency disorders.</p>",
+    "content": "Investigational and Not Medically Necessary:\nAltered auditory feedback (AAF) devices are considered investigational and not medically necessary for the treatment of fluency disorders.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Altered auditory feedback (AAF) devices",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Altered auditory feedback (AAF) devices are considered investigational and not medically necessary for the treatment of fluency disorders.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 925,
+          "prompt_tokens": 845,
+          "completion_tokens": 80,
+          "total_cost": 0.005424999999999999,
+          "processing_time": 1.9449691772460938
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e001739.html",
+    "subject": "Rehabilitative Devices with Remote Monitoring",
+    "document_number": "DME.00047",
+    "publish_date": "06/28/2023",
+    "status": "Revised",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of rehabilitative devices with remote monitoring or adjustment capabilities is considered <strong>investigational and not medically necessary</strong> for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of rehabilitative devices with remote monitoring or adjustment capabilities is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "The use of rehabilitative devices with remote monitoring or adjustment capabilities",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of rehabilitative devices with remote monitoring or adjustment capabilities is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 929,
+          "prompt_tokens": 845,
+          "completion_tokens": 84,
+          "total_cost": 0.005484999999999999,
+          "processing_time": 1.9373111724853516
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_c176280.html",
+    "subject": "Static Progressive Stretch (SPS) and Patient-Actuated Serial Stretch (PASS) Devices",
+    "document_number": "DME.00038",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Static progressive stretch (SPS) devices are considered <strong>investigational and not medically necessary.</strong></p>\n<p>Patient-actuated serial stretch (PASS) devices are considered <strong>investigational and not medically necessary.</strong></p>",
+    "content": "Investigational and Not Medically Necessary:\nStatic progressive stretch (SPS) devices are considered investigational and not medically necessary.\nPatient-actuated serial stretch (PASS) devices are considered investigational and not medically necessary.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Static progressive stretch (SPS) devices",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Static progressive stretch (SPS) devices are considered investigational and not medically necessary.",
+            "conditions": null
+          },
+          {
+            "medical_act": "Patient-actuated serial stretch (PASS) devices",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Patient-actuated serial stretch (PASS) devices are considered investigational and not medically necessary.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 1002,
+          "prompt_tokens": 856,
+          "completion_tokens": 146,
+          "total_cost": 0.00647,
+          "processing_time": 3.3804290294647217
+        }
+      }
+    ]
+  }
+]

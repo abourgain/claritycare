@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_a053274.html",
+    "subject": "Neutron Beam Radiotherapy",
+    "document_number": "THER-RAD.00008",
+    "publish_date": "01/03/2024",
+    "status": "Reviewed",
+    "last_review_date": "11/09/2023",
+    "html_content": "<p class=\"MsoHeader\"><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>Neutron beam radiotherapy is considered <strong>investigational and not medically necessary </strong>for all indications.</p>",
+    "content": "Investigational and Not Medically Necessary:\nNeutron beam radiotherapy is considered investigational and not medically necessary for all indications.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Neutron beam radiotherapy",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "Neutron beam radiotherapy is considered investigational and not medically necessary for all indications.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 908,
+          "prompt_tokens": 838,
+          "completion_tokens": 70,
+          "total_cost": 0.00524,
+          "processing_time": 1.8471882343292236
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.anthem.com/dam/medpolicies/abc/active/policies/mp_pw_e000518.html",
+    "subject": "Electrophysiology-Guided Noninvasive Stereotactic Cardiac Radioablation",
+    "document_number": "THER-RAD.00012",
+    "publish_date": "06/28/2023",
+    "status": "Reviewed",
+    "last_review_date": "05/11/2023",
+    "html_content": "<p><strong>Investigational and Not Medically Necessary:</strong></p>\n<p>The use of electrophysiology-guided noninvasive stereotactic cardiac radioablation is considered <strong>investigational and not medically necessary</strong> as a treatment modality for all indications, including drug and ablation refractory ventricular tachycardia and cardiomyopathy related to premature ventricular contractions.</p>",
+    "content": "Investigational and Not Medically Necessary:\nThe use of electrophysiology-guided noninvasive stereotactic cardiac radioablation is considered investigational and not medically necessary as a treatment modality for all indications, including drug and ablation refractory ventricular tachycardia and cardiomyopathy related to premature ventricular contractions.",
+    "criteria": [
+      {
+        "model": "gpt-4o",
+        "criteria": [
+          {
+            "medical_act": "Electrophysiology-guided noninvasive stereotactic cardiac radioablation",
+            "sub_medical_act": null,
+            "necessity_type": "Investigational and Not Medically Necessary",
+            "description": "The use of electrophysiology-guided noninvasive stereotactic cardiac radioablation is considered investigational and not medically necessary as a treatment modality for all indications, including drug and ablation refractory ventricular tachycardia and cardiomyopathy related to premature ventricular contractions.",
+            "conditions": null
+          }
+        ],
+        "usage": {
+          "total_tokens": 995,
+          "prompt_tokens": 876,
+          "completion_tokens": 119,
+          "total_cost": 0.006165,
+          "processing_time": 2.3095431327819824
+        }
+      }
+    ]
+  }
+]
