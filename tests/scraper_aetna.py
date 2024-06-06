@@ -13,8 +13,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
-BASE_URL = "https://www.anthem.com"
-URL = "https://www.anthem.com/ca/provider/policies/clinical-guidelines/updates/"
+BASE_URL = "https://www.aetna.com/cpb/medical/data/"
+URL = "https://www.aetna.com/health-care-professionals/clinical-policy-bulletins/medical-clinical-policy-bulletins/medical-clinical-policy-bulletins-search-results.html?query={}"
 ALLOWED_CATEGORIES = [
     "ancillarymiscellaneous",
     "medicine",
@@ -34,7 +34,7 @@ class AnthemScraper:
     def __init__(
         self, headful: bool = False, category: str = "surgery", verbose: bool = False
     ):
-        self.url = URL
+        self.url = URL.format(category)
         self.base_url = BASE_URL
         self.headless = not headful
         self.category = category
@@ -50,7 +50,15 @@ class AnthemScraper:
         options = webdriver.FirefoxOptions()
         if not headful:
             options.add_argument("--headless")
-        return webdriver.Firefox(options=options)
+
+        options.set_preference(
+            "general.useragent.override",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        )
+
+        driver = webdriver.Firefox(options=options)
+        driver.maximize_window()
+        return driver
 
     def close_popup(self):
         """Close the popup modal if it exists."""
@@ -61,7 +69,7 @@ class AnthemScraper:
                 EC.element_to_be_clickable(
                     (
                         By.XPATH,
-                        "//button[@class='btn btn-primary' and contains(text(), 'Continue')]",
+                        "//a[@class='modalContinueBtn btn--primary type__btn--primary' and contains(text(), 'I accept')]",
                     )
                 )
             )
@@ -91,13 +99,13 @@ class AnthemScraper:
                 EC.visibility_of_element_located(
                     (
                         By.XPATH,
-                        "//div[contains(@class, 'pretend-pagination')]/span",
+                        "//p[@class='sr_results_message']",
                     )
                 )
             )
             .text
         )
-        num_results = int(result_msg.split(" ")[-1])
+        num_results = int(result_msg.split(" ")[4])
         print(f"Number of results: {num_results}")
         return num_results
 
@@ -105,17 +113,16 @@ class AnthemScraper:
         """Get the link to each item on the page."""
         item_links = []
         items = self.driver.find_elements(
-            By.CSS_SELECTOR, ".news-item-wrapper .article-headline a"
+            By.CSS_SELECTOR, ".sr_list_element .link__headline"
         )
         for item in items:
             link = item.get_attribute("href")
-            if link.split("/")[-1][:2] != "mp":
+            if not link.startswith(BASE_URL):
                 raise ValueError(
-                    "Problem with Medical Policy filter! Expected 'mp_...'"
+                    f"Problem with Medical Policy filter! Expected URL to start with '{BASE_URL}'"
                 )
-            if link.startswith("/"):
-                link = self.base_url + link
             item_links.append(link)
+            print(f"-> Found: {link}")  # TO BE REMOVED
         return item_links
 
     def extract_details(self):
@@ -164,45 +171,19 @@ class AnthemScraper:
             print("Failed to find the document details table.")
             return {}
 
-    def extract_position_statement(self):
+    def extract_policy(self):
         """Extract the content under the 'Position Statement' heading."""
         try:
-            # Locate the 'Position Statement' heading to ensure we are extracting the right paragraph
-            position_heading = WebDriverWait(
-                self.driver, self.get_random_wait_time()
-            ).until(
-                EC.visibility_of_element_located(
-                    (By.XPATH, "//strong[contains(text(), 'Position Statement')]")
-                )
+            policy_section = self.driver.find_element(
+                By.XPATH,
+                "//h2[@class='policyHead' and contains(text(), 'Policy')]/following-sibling::ol",
             )
-            # Collect all subsequent siblings until the next <table> is encountered
-            content_elements = self.driver.execute_script(
-                """
-                var heading = arguments[0];
-                var collect = false;
-                var content = [];
-                var elements = document.body.getElementsByTagName('*');
-                for (var elem of elements) {
-                    if (elem === heading) {
-                        collect = true;
-                        continue;
-                    }
-                    if (collect) {
-                        if (elem.tagName === 'TABLE') break;
-                        if (['P', 'UL', 'LI'].includes(elem.tagName)) {
-                            content.push(elem.outerHTML);
-                        }
-                    }
-                }
-                return content;
-                """,
-                position_heading,
-            )
+            content = policy_section.get_attribute("outerHTML")
 
-            if not content_elements:
+            if not content:
                 raise ValueError("No content was extracted.")
+            return content
 
-            return "\n".join(content_elements)
         except TimeoutException:
             print("Position Statement not found or page format different.")
             return ""
@@ -222,10 +203,21 @@ class AnthemScraper:
             self.driver.get(link)
             time.sleep(self.get_random_wait_time())  # Allow page to load
 
+            # verify the page is loaded
+            try:
+                WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located((By.ID, "docDetails"))
+                )
+                print("Page loaded properly.")
+            except TimeoutException:
+                print("Page did not load properly.")
+                self.driver.close()
+
             # Extract the document details and the 'Position Statement' content
             policy = {"url": link}
-            policy = {**policy, **self.extract_details()}
-            content = self.extract_position_statement()
+            # policy = {**policy, **self.extract_details()} # TO BE REPUT !!!
+            content = self.extract_policy()
+            print(content)
             policy["html_content"] = content
 
             policies.append(policy)
@@ -273,10 +265,11 @@ class AnthemScraper:
             print(f"Scraping Anthem site for {self.category} guidelines.")
         self.driver.get(self.url)
         time.sleep(self.get_random_wait_time())  # Allow page to load
+        time.sleep(30)  # TO BE REMOVED
         self.close_popup()
-        self.select_filter("formsDocTypeFilter", "medicalpolicy")
-        self.select_filter("categoryFilter", self.category)
+        time.sleep(5)  # TO BE REMOVED
         num_results = self.get_num_results()
+        time.sleep(5)  # TO BE REMOVED
 
         visited_links = set()
         policies = []
@@ -285,7 +278,7 @@ class AnthemScraper:
                 item_links = self.get_item_links()
                 visited_links.update(item_links)
                 policies.extend(self.visit_item_pages(item_links))
-                self.navigate_next_page()
+                # self.navigate_next_page()
             except ValueError as exception:
                 print(exception)
                 break
